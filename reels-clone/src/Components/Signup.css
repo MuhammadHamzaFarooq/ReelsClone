@@ -1,0 +1,40 @@
+.signup-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.signup-card {
+  margin-top: 5%;
+  width: 450px;
+}
+
+.insta-logo {
+  text-align: center;
+  padding: 5%;
+}
+
+/* Common Classes */
+
+.textCenter {
+  text-align: center;
+  padding: 3%;
+}
+
+/* ------------------- */
+
+/* Media Query */
+@media only screen and (max-width: 800px) {
+  .signup-card {
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 5%;
+    width: 90%;
+    text-align: center;
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 912px) {
+  .signup-card {
+    width: 80%;
+  }
+}
