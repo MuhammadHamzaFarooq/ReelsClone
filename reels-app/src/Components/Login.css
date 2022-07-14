@@ -1,10 +1,10 @@
-.signup-wrapper {
+.Login-wrapper {
   display: flex;
   justify-content: center;
 }
 
-.signup-card {
-  margin-top: 5%;
+.Login-card {
+  margin-top: 2%;
   width: 450px;
 }
 
@@ -20,11 +20,11 @@
   padding: 3%;
 }
 
-/* ------------------- */
+/* Common Classes */
 
 /* Media Query */
 @media only screen and (max-width: 800px) {
-  .signup-card {
+  .Login-card {
     margin: 0 auto;
     align-items: center;
     margin-top: 5%;
@@ -33,8 +33,15 @@
     justify-content: center;
   }
 }
+
 @media only screen and (max-width: 912px) {
-  .signup-card {
+  .Login-card {
     width: 80%;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .Login-card {
+    width: 90%;
   }
 }
